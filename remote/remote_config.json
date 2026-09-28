@@ -1,0 +1,107 @@
+{
+  "version": 10000,
+  "defaultLocale": "zh",
+  "locales": {
+    "zh": {
+      "scripts": [
+        {
+          "id": "barbecue_001",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.0/remote/zh__barbecue_001.enc",
+          "title": "烧烤店美食局",
+          "description": "围绕烧烤的闲聊：啤酒、烤肉、美拉德反应与烧烤里的历史冷知识。",
+          "discipline": "美食",
+          "category": [
+            "history",
+            "life",
+            "science"
+          ],
+          "permissionLevel": "premium",
+          "createdAt": "2026-09-28",
+          "suitableScenes": [
+            "bbq"
+          ],
+          "estimatedDuration": 20,
+          "difficulty": "normal",
+          "tags": [
+            "美食",
+            "聚会",
+            "烧烤"
+          ],
+          "locale": "zh"
+        },
+        {
+          "id": "coffee_001",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.0/remote/zh__coffee_001.enc",
+          "title": "咖啡馆慢聊局",
+          "description": "从一杯拿铁聊到咖啡豆、半衰期，以及那些关于咖啡的传闻与真相。",
+          "discipline": "美食",
+          "category": [
+            "life",
+            "literature",
+            "science"
+          ],
+          "permissionLevel": "premium",
+          "createdAt": "2026-09-28",
+          "suitableScenes": [
+            "cafe"
+          ],
+          "estimatedDuration": 20,
+          "difficulty": "normal",
+          "tags": [
+            "咖啡",
+            "生活",
+            "冷知识"
+          ],
+          "locale": "zh"
+        },
+        {
+          "id": "movie_001",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.0/remote/zh__movie_001.enc",
+          "title": "《霸王别姬》影视深聊局",
+          "description": "整局只聊《霸王别姬》一部电影，分多个深挖段落。",
+          "discipline": "影视",
+          "category": [
+            "literature"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-28",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 25,
+          "difficulty": "normal",
+          "tags": [
+            "电影",
+            "霸王别姬",
+            "影视"
+          ],
+          "locale": "zh"
+        },
+        {
+          "id": "wellness_001",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.0/remote/zh__wellness_001.enc",
+          "title": "客厅养生误区局",
+          "description": "八杯水、骨头汤、隔夜菜……聊聊那些流传很广的健康误区。",
+          "discipline": "健康养生",
+          "category": [
+            "life",
+            "science"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-28",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 18,
+          "difficulty": "easy",
+          "tags": [
+            "健康",
+            "养生",
+            "误区"
+          ],
+          "locale": "zh"
+        }
+      ]
+    }
+  }
+}
