@@ -1,12 +1,1252 @@
 {
-  "version": 10000,
-  "defaultLocale": "zh",
-  "locales": {
-    "zh": {
+  "version": 10001,
+  "defaultRegion": "zh-CN",
+  "regions": {
+    "en-US": {
       "scripts": [
         {
-          "id": "barbecue_001",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.0/remote/zh__barbecue_001.enc",
+          "id": "bohemianrhapsody",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/en-US__bohemianrhapsody.enc",
+          "title": "Bohemian Rhapsody Deep-Dive Night",
+          "description": "One whole session on Queen's Bohemian Rhapsody.",
+          "discipline": "Music",
+          "category": [
+            "music"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-29",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 20,
+          "difficulty": "normal",
+          "tags": [
+            "music",
+            "Queen",
+            "Freddie Mercury"
+          ]
+        },
+        {
+          "id": "inception",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/en-US__inception.enc",
+          "title": "Inception Deep-Dive Night",
+          "description": "One whole session on the film Inception, unpacked in segments.",
+          "discipline": "Film",
+          "category": [
+            "movie"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-29",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 20,
+          "difficulty": "normal",
+          "tags": [
+            "film",
+            "Inception",
+            "Nolan"
+          ]
+        },
+        {
+          "id": "skull",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/en-US__skull.enc",
+          "title": "The 'Skull' Meme Deep-Dive Night",
+          "description": "One whole session on the 💀 'skull' meme and dead-from-laughing culture.",
+          "discipline": "Internet Meme",
+          "category": [
+            "meme"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-29",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 20,
+          "difficulty": "normal",
+          "tags": [
+            "meme",
+            "skull",
+            "💀"
+          ]
+        },
+        {
+          "id": "blackhole",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/en-US__blackhole.enc",
+          "title": "Black Hole Deep-Dive Night",
+          "description": "One whole session on black holes, from event horizon to the first image.",
+          "discipline": "Science",
+          "category": [
+            "science"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-29",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 20,
+          "difficulty": "normal",
+          "tags": [
+            "science",
+            "black hole",
+            "astronomy"
+          ]
+        },
+        {
+          "id": "pizza",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/en-US__pizza.enc",
+          "title": "Pizza Deep-Dive Night",
+          "description": "One whole session on pizza, from Naples to your door.",
+          "discipline": "Food",
+          "category": [
+            "food"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-29",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 20,
+          "difficulty": "normal",
+          "tags": [
+            "food",
+            "pizza",
+            "Italian"
+          ]
+        },
+        {
+          "id": "romaempire",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/en-US__romaempire.enc",
+          "title": "Roman Empire Deep-Dive Night",
+          "description": "One whole session on the Roman Empire, rise to fall.",
+          "discipline": "History",
+          "category": [
+            "history"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-29",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 20,
+          "difficulty": "normal",
+          "tags": [
+            "history",
+            "Rome",
+            "empire"
+          ]
+        }
+      ],
+      "cast": [
+        {
+          "id": "linus",
+          "displayName": "Linus",
+          "assetPrefix": "laolin",
+          "slot": "lead",
+          "emoji": "🧐",
+          "color": "#4A6FA5",
+          "title": "The Skeptic",
+          "personality": "A veteran developer of 20 years, the only one at the table who actually checks facts. He'll cut you off mid-rumor and pull up the evidence on his phone. Sharp-tongued but reasonable.",
+          "style": "Corrects first, explains second; every sentence backed by numbers and sources, gestures with his fingers when fired up.",
+          "catchphrase": "Hold on, that's not right.",
+          "domains": [
+            "science",
+            "tech"
+          ],
+          "traits": {
+            "talkative": 70,
+            "provocative": 60,
+            "peacemaking": 10,
+            "argumentative": 85,
+            "curious": 50,
+            "knowledgeable": 90,
+            "teasing": 40
+          }
+        },
+        {
+          "id": "zoe",
+          "displayName": "Zoe",
+          "assetPrefix": "zhaojie",
+          "slot": "lead",
+          "emoji": "👩‍💼",
+          "color": "#B85C7D",
+          "title": "The Know-It-All",
+          "personality": "Knows a bit of everything, equally at home with small talk and financial news. Genuinely caring, but loves a good lecture. Being corrected by her isn't the scary part — the 'for your own good' follow-up is.",
+          "style": "Speaks fast, loves rhetorical questions, pats your arm when excited.",
+          "catchphrase": "Listen, I know exactly how this goes.",
+          "domains": [
+            "life",
+            "economy"
+          ],
+          "traits": {
+            "talkative": 80,
+            "provocative": 30,
+            "peacemaking": 70,
+            "argumentative": 40,
+            "curious": 60,
+            "knowledgeable": 75,
+            "teasing": 30
+          }
+        },
+        {
+          "id": "chen",
+          "displayName": "Mr. Chen",
+          "assetPrefix": "chenlaoshi",
+          "slot": "lead",
+          "emoji": "🤓",
+          "color": "#5B8C5A",
+          "title": "The Half-Expert",
+          "personality": "A former schoolteacher who loves quoting classics, but his memory occasionally slips. When he calls you out he's usually right — but when he's wrong, he doubles down.",
+          "style": "Opens with data and historical years, occasionally misremembers but stays dead certain.",
+          "catchphrase": "By the numbers, your claim doesn't hold.",
+          "domains": [
+            "history",
+            "science"
+          ],
+          "traits": {
+            "talkative": 75,
+            "provocative": 35,
+            "peacemaking": 20,
+            "argumentative": 70,
+            "curious": 40,
+            "knowledgeable": 80,
+            "teasing": 25
+          }
+        },
+        {
+          "id": "max",
+          "displayName": "Max",
+          "assetPrefix": "aqiang",
+          "slot": "hype",
+          "emoji": "😏",
+          "color": "#D9822B",
+          "title": "The Hype Man",
+          "personality": "Wherever there's a topic, there's Max, always steering the heat toward you. He's wrong more than anyone, but his skin is bulletproof — one laugh and the flop is forgotten.",
+          "style": "Loud, loves a meme, always turns it to you: 'What do YOU think?'",
+          "catchphrase": "Oh this is worth talking about — let him speak!",
+          "domains": [
+            "meme",
+            "trending"
+          ],
+          "traits": {
+            "talkative": 90,
+            "provocative": 85,
+            "peacemaking": 15,
+            "argumentative": 60,
+            "curious": 55,
+            "knowledgeable": 40,
+            "teasing": 85
+          }
+        },
+        {
+          "id": "dash",
+          "displayName": "Dash",
+          "assetPrefix": "dafei",
+          "slot": "hype",
+          "emoji": "🤪",
+          "color": "#C25B4E",
+          "title": "The Joker",
+          "personality": "Can turn any serious thing into a bit, but he actually remembers the facts you shared and shows them off to others later.",
+          "style": "A joke every three sentences, calls you out in a funny way that leaves you laughing and annoyed.",
+          "catchphrase": "Let me say my piece, then you can all laugh.",
+          "domains": [
+            "meme",
+            "life"
+          ],
+          "traits": {
+            "talkative": 85,
+            "provocative": 60,
+            "peacemaking": 20,
+            "argumentative": 50,
+            "curious": 45,
+            "knowledgeable": 45,
+            "teasing": 95
+          }
+        },
+        {
+          "id": "bro",
+          "displayName": "Bro",
+          "assetPrefix": "biaoge",
+          "slot": "hype",
+          "emoji": "🕶️",
+          "color": "#7A6BB5",
+          "title": "The Big-Timer",
+          "personality": "Knows everyone, has tried everything. Eight of ten stories are pure bluff, but the two real facts in there are often correct — impossible to predict which.",
+          "style": "Opens with 'I know a guy who…' or 'Back when I tried…', raises an eyebrow when proud.",
+          "catchphrase": "I know a big-shot in business, he says…",
+          "domains": [
+            "economy",
+            "trending"
+          ],
+          "traits": {
+            "talkative": 80,
+            "provocative": 55,
+            "peacemaking": 10,
+            "argumentative": 50,
+            "curious": 35,
+            "knowledgeable": 55,
+            "teasing": 70
+          }
+        },
+        {
+          "id": "mia",
+          "displayName": "Mia",
+          "assetPrefix": "xiaomei",
+          "slot": "gentle",
+          "emoji": "🌸",
+          "color": "#C97B8E",
+          "title": "The Quiet Observer",
+          "personality": "Seems the most supportive, but sees the clearest. The compliment is usually followed by the real knife. You can't stay mad — she's smiling too reasonably.",
+          "style": "Gasps 'wow' to build you up, then lands a gentle zinger.",
+          "catchphrase": "Wow, really? … you sure?",
+          "domains": [
+            "life",
+            "literature"
+          ],
+          "traits": {
+            "talkative": 70,
+            "provocative": 30,
+            "peacemaking": 80,
+            "argumentative": 35,
+            "curious": 60,
+            "knowledgeable": 65,
+            "teasing": 60
+          }
+        },
+        {
+          "id": "mimi",
+          "displayName": "Mimi",
+          "assetPrefix": "miaomiao",
+          "slot": "gentle",
+          "emoji": "🐣",
+          "color": "#5FA8A0",
+          "title": "The Curious One",
+          "personality": "Genuinely curious to a fault; takes everything you say at face value, then asks until you talk yourself into a corner. She's not exposing you — her questions are just that sharp.",
+          "style": "Rapid-fire questions: 'But why?' 'What if…?' until you stall.",
+          "catchphrase": "No way! Then why?",
+          "domains": [
+            "science",
+            "meme"
+          ],
+          "traits": {
+            "talkative": 75,
+            "provocative": 20,
+            "peacemaking": 40,
+            "argumentative": 30,
+            "curious": 95,
+            "knowledgeable": 50,
+            "teasing": 45
+          }
+        },
+        {
+          "id": "hui",
+          "displayName": "Hui",
+          "assetPrefix": "ahui",
+          "slot": "gentle",
+          "emoji": "🍵",
+          "color": "#8A9A5B",
+          "title": "The Peacemaker",
+          "personality": "The only one handing out ladder rungs to whoever's stuck. But don't think she's easy — the soft add-on after smoothing things over is usually the most accurate.",
+          "style": "Gentle tone, defends you then corrects: a quiet 'that said…' goes straight to the point.",
+          "catchphrase": "Easy now… that said,",
+          "domains": [
+            "life",
+            "history"
+          ],
+          "traits": {
+            "talkative": 65,
+            "provocative": 10,
+            "peacemaking": 95,
+            "argumentative": 20,
+            "curious": 50,
+            "knowledgeable": 60,
+            "teasing": 30
+          }
+        },
+        {
+          "id": "dan",
+          "displayName": "Dan",
+          "assetPrefix": "dazhuang",
+          "slot": "quiet",
+          "emoji": "🤫",
+          "color": "#9C6B3F",
+          "title": "The Strong Silent Type",
+          "personality": "Barely five sentences all night, just listening. But your worst flop? Usually the one calm line he drops. Fewer words, bigger impact.",
+          "style": "A walking quote machine, about one line per two topics; when he speaks the table goes quiet.",
+          "catchphrase": "…I don't think so.",
+          "domains": [
+            "life",
+            "meme"
+          ],
+          "traits": {
+            "talkative": 15,
+            "provocative": 25,
+            "peacemaking": 50,
+            "argumentative": 45,
+            "curious": 30,
+            "knowledgeable": 55,
+            "teasing": 35
+          }
+        }
+      ],
+      "scenes": [
+        {
+          "id": "bbq",
+          "displayName": "BBQ Joint",
+          "background": "bg_bbq",
+          "subtitle": "Plastic stools and a low table, the skewers still smoking, two beers already opened.",
+          "requiredTier": "premium",
+          "table": {
+            "farY": 0.4,
+            "nearY": 0.01,
+            "farHalfWidth": 0.26,
+            "nearHalfWidth": 0.46
+          },
+          "props": [
+            {
+              "kind": "plate",
+              "x": 0.34,
+              "y": 0.42,
+              "scale": 1.0
+            },
+            {
+              "kind": "skewer",
+              "x": 0.5,
+              "y": 0.38,
+              "scale": 1.0
+            },
+            {
+              "kind": "bottle",
+              "x": 0.68,
+              "y": 0.44,
+              "scale": 1.1
+            },
+            {
+              "kind": "bottle",
+              "x": 0.78,
+              "y": 0.56,
+              "scale": 1.0
+            }
+          ],
+          "seats": [
+            {
+              "characterID": "aqiang",
+              "position": "left",
+              "depth": "foreground"
+            },
+            {
+              "characterID": "xiaomei",
+              "position": "center",
+              "depth": "foreground"
+            },
+            {
+              "characterID": "laolin",
+              "position": "right",
+              "depth": "midground"
+            },
+            {
+              "characterID": "dazhuang",
+              "position": "farRight",
+              "depth": "background"
+            }
+          ],
+          "reactionChains": {
+            "wrong": [
+              {
+                "at": 0.5,
+                "speakerID": "laolin",
+                "mood": "eyeroll",
+                "act": "freeze"
+              },
+              {
+                "at": 1.3,
+                "speakerID": "laolin",
+                "text": "Hahaha, you really said that.",
+                "mood": "laugh",
+                "act": "slap"
+              },
+              {
+                "at": 2.05,
+                "speakerID": "aqiang",
+                "text": "You just ran with my offhand comment, hahaha.",
+                "mood": "laugh",
+                "act": "pointCamera"
+              },
+              {
+                "at": 2.75,
+                "speakerID": "xiaomei",
+                "text": "You usually seem pretty sharp.",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 3.4,
+                "speakerID": "dazhuang",
+                "text": "Yeah, I thought so too.",
+                "mood": "laugh",
+                "act": "raiseHand"
+              },
+              {
+                "at": 4.0,
+                "speakerID": "laolin",
+                "act": "sitBack"
+              }
+            ],
+            "correct": [
+              {
+                "at": 0.7,
+                "speakerID": "laolin",
+                "text": "Hmm? You actually knew that.",
+                "mood": "normal",
+                "act": "nod"
+              },
+              {
+                "at": 1.55,
+                "speakerID": "aqiang",
+                "text": "Just lucky, I guess.",
+                "mood": "eyeroll",
+                "act": "shrug"
+              },
+              {
+                "at": 2.2,
+                "speakerID": "xiaomei",
+                "text": "Nice, nice — I respect that.",
+                "mood": "thumbsUp",
+                "act": "thumbsUp"
+              }
+            ],
+            "fooled": [
+              {
+                "at": 0.6,
+                "speakerID": "laolin",
+                "mood": "smug",
+                "act": "freeze"
+              },
+              {
+                "at": 1.25,
+                "speakerID": "laolin",
+                "text": "I faked it. I just wanted to see if you'd go along.",
+                "mood": "smug",
+                "act": "lean"
+              },
+              {
+                "at": 2.0,
+                "speakerID": "aqiang",
+                "text": "Ha! You walked right into my trap, hahaha.",
+                "mood": "laugh",
+                "act": "pointCamera"
+              },
+              {
+                "at": 2.7,
+                "speakerID": "xiaomei",
+                "text": "He was all confident a second ago, hahaha.",
+                "mood": "laugh",
+                "act": "shakeHead"
+              },
+              {
+                "at": 3.35,
+                "speakerID": "dazhuang",
+                "text": "I believed it too, so I got fooled as well.",
+                "mood": "laugh",
+                "act": "raiseHand"
+              }
+            ],
+            "sawThrough": [
+              {
+                "at": 0.55,
+                "speakerID": "laolin",
+                "mood": "smug",
+                "act": "freeze"
+              },
+              {
+                "at": 1.2,
+                "speakerID": "laolin",
+                "text": "Oh, you're pretty alert.",
+                "mood": "smug",
+                "act": "nod"
+              },
+              {
+                "at": 1.85,
+                "speakerID": "aqiang",
+                "text": "Lame, couldn't fool you.",
+                "mood": "eyeroll",
+                "act": "shrug"
+              },
+              {
+                "at": 2.45,
+                "speakerID": "xiaomei",
+                "text": "Not bad — spotted it instantly.",
+                "mood": "thumbsUp",
+                "act": "thumbsUp"
+              }
+            ],
+            "halfRight": [
+              {
+                "at": 0.75,
+                "speakerID": "laolin",
+                "text": "Half right, but half means you already lost.",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 1.6,
+                "speakerID": "aqiang",
+                "text": "See, even he isn't sure.",
+                "mood": "laugh",
+                "act": "lean"
+              },
+              {
+                "at": 2.25,
+                "speakerID": "xiaomei",
+                "text": "At least you're in the ballpark, don't be too hard.",
+                "mood": "laugh",
+                "act": "nod"
+              }
+            ],
+            "teased": [
+              {
+                "at": 0.75,
+                "speakerID": "aqiang",
+                "text": "Haha, listen to you.",
+                "mood": "laugh",
+                "act": "lean"
+              },
+              {
+                "at": 1.55,
+                "speakerID": "xiaomei",
+                "text": "You believe that yourself?",
+                "mood": "laugh",
+                "act": "shakeHead"
+              },
+              {
+                "at": 2.2,
+                "speakerID": "laolin",
+                "text": "That's basically saying nothing, but also not wrong.",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 2.9,
+                "speakerID": "dazhuang",
+                "text": "Kinda makes sense though?",
+                "mood": "laugh",
+                "act": "raiseHand"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cafe",
+          "displayName": "Cafe",
+          "background": "bg_cafe",
+          "subtitle": "Bar stools around the counter, the coffee's gone cold but the talk hasn't.",
+          "requiredTier": "premium",
+          "table": {
+            "farY": 0.46,
+            "nearY": 0.05,
+            "farHalfWidth": 0.3,
+            "nearHalfWidth": 0.48
+          },
+          "props": [
+            {
+              "kind": "cup",
+              "x": 0.3,
+              "y": 0.4,
+              "scale": 0.9
+            },
+            {
+              "kind": "cup",
+              "x": 0.58,
+              "y": 0.46,
+              "scale": 0.9
+            },
+            {
+              "kind": "menu",
+              "x": 0.74,
+              "y": 0.34,
+              "scale": 1.0
+            },
+            {
+              "kind": "phone",
+              "x": 0.48,
+              "y": 0.66,
+              "scale": 1.0
+            }
+          ],
+          "seats": [
+            {
+              "characterID": "aqiang",
+              "position": "left",
+              "depth": "foreground"
+            },
+            {
+              "characterID": "xiaomei",
+              "position": "center",
+              "depth": "foreground",
+              "xOffset": 0.03
+            },
+            {
+              "characterID": "laolin",
+              "position": "right",
+              "depth": "midground"
+            },
+            {
+              "characterID": "dazhuang",
+              "position": "farRight",
+              "depth": "background",
+              "xOffset": -0.02
+            }
+          ],
+          "reactionChains": {
+            "wrong": [
+              {
+                "at": 0.5,
+                "speakerID": "laolin",
+                "mood": "eyeroll",
+                "act": "freeze"
+              },
+              {
+                "at": 1.3,
+                "speakerID": "laolin",
+                "text": "Hahaha, you really said that.",
+                "mood": "laugh",
+                "act": "slap"
+              },
+              {
+                "at": 2.05,
+                "speakerID": "aqiang",
+                "text": "You just ran with my offhand comment, hahaha.",
+                "mood": "laugh",
+                "act": "pointCamera"
+              },
+              {
+                "at": 2.75,
+                "speakerID": "xiaomei",
+                "text": "You usually seem pretty sharp.",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 3.4,
+                "speakerID": "dazhuang",
+                "text": "Yeah, I thought so too.",
+                "mood": "laugh",
+                "act": "raiseHand"
+              },
+              {
+                "at": 4.0,
+                "speakerID": "laolin",
+                "act": "sitBack"
+              }
+            ],
+            "correct": [
+              {
+                "at": 0.7,
+                "speakerID": "laolin",
+                "text": "Hmm? You actually knew that.",
+                "mood": "normal",
+                "act": "nod"
+              },
+              {
+                "at": 1.55,
+                "speakerID": "aqiang",
+                "text": "Just lucky, I guess.",
+                "mood": "eyeroll",
+                "act": "shrug"
+              },
+              {
+                "at": 2.2,
+                "speakerID": "xiaomei",
+                "text": "Nice, nice — I respect that.",
+                "mood": "thumbsUp",
+                "act": "thumbsUp"
+              }
+            ],
+            "fooled": [
+              {
+                "at": 0.6,
+                "speakerID": "laolin",
+                "mood": "smug",
+                "act": "freeze"
+              },
+              {
+                "at": 1.25,
+                "speakerID": "laolin",
+                "text": "I faked it. I just wanted to see if you'd go along.",
+                "mood": "smug",
+                "act": "lean"
+              },
+              {
+                "at": 2.0,
+                "speakerID": "aqiang",
+                "text": "Ha! You walked right into my trap, hahaha.",
+                "mood": "laugh",
+                "act": "pointCamera"
+              },
+              {
+                "at": 2.7,
+                "speakerID": "xiaomei",
+                "text": "He was all confident a second ago, hahaha.",
+                "mood": "laugh",
+                "act": "shakeHead"
+              },
+              {
+                "at": 3.35,
+                "speakerID": "dazhuang",
+                "text": "I believed it too, so I got fooled as well.",
+                "mood": "laugh",
+                "act": "raiseHand"
+              }
+            ],
+            "sawThrough": [
+              {
+                "at": 0.55,
+                "speakerID": "laolin",
+                "mood": "smug",
+                "act": "freeze"
+              },
+              {
+                "at": 1.2,
+                "speakerID": "laolin",
+                "text": "Oh, you're pretty alert.",
+                "mood": "smug",
+                "act": "nod"
+              },
+              {
+                "at": 1.85,
+                "speakerID": "aqiang",
+                "text": "Lame, couldn't fool you.",
+                "mood": "eyeroll",
+                "act": "shrug"
+              },
+              {
+                "at": 2.45,
+                "speakerID": "xiaomei",
+                "text": "Not bad — spotted it instantly.",
+                "mood": "thumbsUp",
+                "act": "thumbsUp"
+              }
+            ],
+            "halfRight": [
+              {
+                "at": 0.75,
+                "speakerID": "laolin",
+                "text": "Half right, but half means you already lost.",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 1.6,
+                "speakerID": "aqiang",
+                "text": "See, even he isn't sure.",
+                "mood": "laugh",
+                "act": "lean"
+              },
+              {
+                "at": 2.25,
+                "speakerID": "xiaomei",
+                "text": "At least you're in the ballpark, don't be too hard.",
+                "mood": "laugh",
+                "act": "nod"
+              }
+            ],
+            "teased": [
+              {
+                "at": 0.75,
+                "speakerID": "aqiang",
+                "text": "Haha, listen to you.",
+                "mood": "laugh",
+                "act": "lean"
+              },
+              {
+                "at": 1.55,
+                "speakerID": "xiaomei",
+                "text": "You believe that yourself?",
+                "mood": "laugh",
+                "act": "shakeHead"
+              },
+              {
+                "at": 2.2,
+                "speakerID": "laolin",
+                "text": "That's basically saying nothing, but also not wrong.",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 2.9,
+                "speakerID": "dazhuang",
+                "text": "Kinda makes sense though?",
+                "mood": "laugh",
+                "act": "raiseHand"
+              }
+            ]
+          }
+        },
+        {
+          "id": "living_room",
+          "displayName": "Living Room Sofa",
+          "background": "bg_livingroom",
+          "subtitle": "Three people squished on the couch, the coffee table piled with snacks, nobody's leaving first.",
+          "requiredTier": "free",
+          "table": {
+            "farY": 0.42,
+            "nearY": 0.02,
+            "farHalfWidth": 0.24,
+            "nearHalfWidth": 0.47
+          },
+          "props": [
+            {
+              "kind": "plate",
+              "x": 0.42,
+              "y": 0.35,
+              "scale": 1.0
+            },
+            {
+              "kind": "cup",
+              "x": 0.66,
+              "y": 0.34,
+              "scale": 1.0
+            },
+            {
+              "kind": "snack",
+              "x": 0.26,
+              "y": 0.52,
+              "scale": 1.0
+            },
+            {
+              "kind": "phone",
+              "x": 0.6,
+              "y": 0.62,
+              "scale": 1.0
+            }
+          ],
+          "seats": [
+            {
+              "characterID": "aqiang",
+              "position": "left",
+              "depth": "foreground"
+            },
+            {
+              "characterID": "xiaomei",
+              "position": "center",
+              "depth": "foreground"
+            },
+            {
+              "characterID": "laolin",
+              "position": "right",
+              "depth": "midground"
+            },
+            {
+              "characterID": "dazhuang",
+              "position": "farRight",
+              "depth": "background"
+            }
+          ],
+          "reactionChains": {
+            "wrong": [
+              {
+                "at": 0.5,
+                "speakerID": "laolin",
+                "mood": "eyeroll",
+                "act": "freeze"
+              },
+              {
+                "at": 1.3,
+                "speakerID": "laolin",
+                "text": "Hahaha, you really said that.",
+                "mood": "laugh",
+                "act": "slap"
+              },
+              {
+                "at": 2.05,
+                "speakerID": "aqiang",
+                "text": "You just ran with my offhand comment, hahaha.",
+                "mood": "laugh",
+                "act": "pointCamera"
+              },
+              {
+                "at": 2.75,
+                "speakerID": "xiaomei",
+                "text": "You usually seem pretty sharp.",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 3.4,
+                "speakerID": "dazhuang",
+                "text": "Yeah, I thought so too.",
+                "mood": "laugh",
+                "act": "raiseHand"
+              },
+              {
+                "at": 4.0,
+                "speakerID": "laolin",
+                "act": "sitBack"
+              }
+            ],
+            "correct": [
+              {
+                "at": 0.7,
+                "speakerID": "laolin",
+                "text": "Hmm? You actually knew that.",
+                "mood": "normal",
+                "act": "nod"
+              },
+              {
+                "at": 1.55,
+                "speakerID": "aqiang",
+                "text": "Just lucky, I guess.",
+                "mood": "eyeroll",
+                "act": "shrug"
+              },
+              {
+                "at": 2.2,
+                "speakerID": "xiaomei",
+                "text": "Nice, nice — I respect that.",
+                "mood": "thumbsUp",
+                "act": "thumbsUp"
+              }
+            ],
+            "fooled": [
+              {
+                "at": 0.6,
+                "speakerID": "laolin",
+                "mood": "smug",
+                "act": "freeze"
+              },
+              {
+                "at": 1.25,
+                "speakerID": "laolin",
+                "text": "I faked it. I just wanted to see if you'd go along.",
+                "mood": "smug",
+                "act": "lean"
+              },
+              {
+                "at": 2.0,
+                "speakerID": "aqiang",
+                "text": "Ha! You walked right into my trap, hahaha.",
+                "mood": "laugh",
+                "act": "pointCamera"
+              },
+              {
+                "at": 2.7,
+                "speakerID": "xiaomei",
+                "text": "He was all confident a second ago, hahaha.",
+                "mood": "laugh",
+                "act": "shakeHead"
+              },
+              {
+                "at": 3.35,
+                "speakerID": "dazhuang",
+                "text": "I believed it too, so I got fooled as well.",
+                "mood": "laugh",
+                "act": "raiseHand"
+              }
+            ],
+            "sawThrough": [
+              {
+                "at": 0.55,
+                "speakerID": "laolin",
+                "mood": "smug",
+                "act": "freeze"
+              },
+              {
+                "at": 1.2,
+                "speakerID": "laolin",
+                "text": "Oh, you're pretty alert.",
+                "mood": "smug",
+                "act": "nod"
+              },
+              {
+                "at": 1.85,
+                "speakerID": "aqiang",
+                "text": "Lame, couldn't fool you.",
+                "mood": "eyeroll",
+                "act": "shrug"
+              },
+              {
+                "at": 2.45,
+                "speakerID": "xiaomei",
+                "text": "Not bad — spotted it instantly.",
+                "mood": "thumbsUp",
+                "act": "thumbsUp"
+              }
+            ],
+            "halfRight": [
+              {
+                "at": 0.75,
+                "speakerID": "laolin",
+                "text": "Half right, but half means you already lost.",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 1.6,
+                "speakerID": "aqiang",
+                "text": "See, even he isn't sure.",
+                "mood": "laugh",
+                "act": "lean"
+              },
+              {
+                "at": 2.25,
+                "speakerID": "xiaomei",
+                "text": "At least you're in the ballpark, don't be too hard.",
+                "mood": "laugh",
+                "act": "nod"
+              }
+            ],
+            "teased": [
+              {
+                "at": 0.75,
+                "speakerID": "aqiang",
+                "text": "Haha, listen to you.",
+                "mood": "laugh",
+                "act": "lean"
+              },
+              {
+                "at": 1.55,
+                "speakerID": "xiaomei",
+                "text": "You believe that yourself?",
+                "mood": "laugh",
+                "act": "shakeHead"
+              },
+              {
+                "at": 2.2,
+                "speakerID": "laolin",
+                "text": "That's basically saying nothing, but also not wrong.",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 2.9,
+                "speakerID": "dazhuang",
+                "text": "Kinda makes sense though?",
+                "mood": "laugh",
+                "act": "raiseHand"
+              }
+            ]
+          }
+        }
+      ],
+      "assets": {}
+    },
+    "zh-CN": {
+      "scripts": [
+        {
+          "id": "dongfengpo",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/zh-CN__dongfengpo.enc",
+          "title": "《东风破》中国风深聊局",
+          "description": "整局只聊周杰伦的《东风破》一首歌，分多个深挖段落。",
+          "discipline": "音乐",
+          "category": [
+            "music"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-29",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 20,
+          "difficulty": "normal",
+          "tags": [
+            "音乐",
+            "周杰伦",
+            "中国风",
+            "东风破"
+          ]
+        },
+        {
+          "id": "bawangbieji",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/zh-CN__bawangbieji.enc",
+          "title": "《霸王别姬》影视深聊局",
+          "description": "整局只聊《霸王别姬》一部电影，分多个深挖段落。",
+          "discipline": "影视",
+          "category": [
+            "literature"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-28",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 25,
+          "difficulty": "normal",
+          "tags": [
+            "电影",
+            "霸王别姬",
+            "影视"
+          ]
+        },
+        {
+          "id": "tangping",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/zh-CN__tangping.enc",
+          "title": "“躺平”梗深聊局",
+          "description": "整局只聊“躺平”这一个网络梗，从起源到立场。",
+          "discipline": "网络热梗",
+          "category": [
+            "meme"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-29",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 20,
+          "difficulty": "normal",
+          "tags": [
+            "梗",
+            "躺平",
+            "内卷"
+          ]
+        },
+        {
+          "id": "taiyang",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/zh-CN__taiyang.enc",
+          "title": "太阳深聊局",
+          "description": "整局只聊太阳这一颗恒星，从核聚变到红巨星。",
+          "discipline": "科学",
+          "category": [
+            "science"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-29",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 20,
+          "difficulty": "normal",
+          "tags": [
+            "科学",
+            "太阳",
+            "天文"
+          ]
+        },
+        {
+          "id": "yangsheng",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/zh-CN__yangsheng.enc",
+          "title": "客厅养生误区局",
+          "description": "八杯水、骨头汤、隔夜菜……聊聊那些流传很广的健康误区。",
+          "discipline": "健康养生",
+          "category": [
+            "life",
+            "science"
+          ],
+          "permissionLevel": "free",
+          "createdAt": "2026-09-28",
+          "suitableScenes": [
+            "living_room"
+          ],
+          "estimatedDuration": 18,
+          "difficulty": "easy",
+          "tags": [
+            "健康",
+            "养生",
+            "误区"
+          ]
+        },
+        {
+          "id": "barbecue",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/zh-CN__barbecue.enc",
           "title": "烧烤店美食局",
           "description": "围绕烧烤的闲聊：啤酒、烤肉、美拉德反应与烧烤里的历史冷知识。",
           "discipline": "美食",
@@ -26,12 +1266,11 @@
             "美食",
             "聚会",
             "烧烤"
-          ],
-          "locale": "zh"
+          ]
         },
         {
-          "id": "coffee_001",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.0/remote/zh__coffee_001.enc",
+          "id": "coffee",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/zh-CN__coffee.enc",
           "title": "咖啡馆慢聊局",
           "description": "从一杯拿铁聊到咖啡豆、半衰期，以及那些关于咖啡的传闻与真相。",
           "discipline": "美食",
@@ -51,57 +1290,1045 @@
             "咖啡",
             "生活",
             "冷知识"
-          ],
-          "locale": "zh"
+          ]
         },
         {
-          "id": "movie_001",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.0/remote/zh__movie_001.enc",
-          "title": "《霸王别姬》影视深聊局",
-          "description": "整局只聊《霸王别姬》一部电影，分多个深挖段落。",
-          "discipline": "影视",
+          "id": "malatang",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/zh-CN__malatang.enc",
+          "title": "麻辣烫深聊局",
+          "description": "整局只聊麻辣烫这一碗，从码头到网红店。",
+          "discipline": "美食",
           "category": [
-            "literature"
+            "food"
           ],
           "permissionLevel": "free",
-          "createdAt": "2026-09-28",
+          "createdAt": "2026-09-29",
           "suitableScenes": [
             "living_room"
           ],
-          "estimatedDuration": 25,
+          "estimatedDuration": 20,
           "difficulty": "normal",
           "tags": [
-            "电影",
-            "霸王别姬",
-            "影视"
-          ],
-          "locale": "zh"
+            "美食",
+            "麻辣烫",
+            "川渝"
+          ]
         },
         {
-          "id": "wellness_001",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.0/remote/zh__wellness_001.enc",
-          "title": "客厅养生误区局",
-          "description": "八杯水、骨头汤、隔夜菜……聊聊那些流传很广的健康误区。",
-          "discipline": "健康养生",
+          "id": "qinshihuang",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.0.1/remote/zh-CN__qinshihuang.enc",
+          "title": "秦始皇深聊局",
+          "description": "整局只聊秦始皇一个人，从统一六国到兵马俑。",
+          "discipline": "历史",
           "category": [
-            "life",
-            "science"
+            "history"
           ],
           "permissionLevel": "free",
-          "createdAt": "2026-09-28",
+          "createdAt": "2026-09-29",
           "suitableScenes": [
             "living_room"
           ],
-          "estimatedDuration": 18,
-          "difficulty": "easy",
+          "estimatedDuration": 20,
+          "difficulty": "normal",
           "tags": [
-            "健康",
-            "养生",
-            "误区"
-          ],
-          "locale": "zh"
+            "历史",
+            "秦始皇",
+            "秦朝"
+          ]
         }
-      ]
+      ],
+      "cast": [
+        {
+          "id": "laolin",
+          "displayName": "老林",
+          "assetPrefix": "laolin",
+          "slot": "lead",
+          "emoji": "🧐",
+          "color": "#4A6FA5",
+          "title": "较真老炮",
+          "personality": "干了二十年开发的程序员，一桌人里唯一较真的。别人随口一句传言他能当场打断，掏出手机就把证据摆出来。毒舌但讲理。",
+          "style": "先纠错再科普，句句带数字和出处，说到兴头上会拿手指比划",
+          "catchphrase": "等会儿，这话不对。",
+          "domains": [
+            "science",
+            "tech"
+          ],
+          "traits": {
+            "talkative": 70,
+            "provocative": 60,
+            "peacemaking": 10,
+            "argumentative": 85,
+            "curious": 50,
+            "knowledgeable": 90,
+            "teasing": 40
+          }
+        },
+        {
+          "id": "zhaojie",
+          "displayName": "赵姐",
+          "assetPrefix": "zhaojie",
+          "slot": "lead",
+          "emoji": "👩‍💼",
+          "color": "#B85C7D",
+          "title": "万事通",
+          "personality": "什么都懂一点，家长里短和财经新闻通吃。关心人是真的，顺嘴教育你也是真的。被她拆穿不可怕，可怕的是她还会补一句为你好。",
+          "style": "语速快，爱用反问句，说到激动处会拍你胳膊",
+          "catchphrase": "我跟你讲，这事儿我太清楚了。",
+          "domains": [
+            "life",
+            "economy"
+          ],
+          "traits": {
+            "talkative": 80,
+            "provocative": 30,
+            "peacemaking": 70,
+            "argumentative": 40,
+            "curious": 60,
+            "knowledgeable": 75,
+            "teasing": 30
+          }
+        },
+        {
+          "id": "chenlaoshi",
+          "displayName": "陈老师",
+          "assetPrefix": "chenlaoshi",
+          "slot": "lead",
+          "emoji": "🤓",
+          "color": "#5B8C5A",
+          "title": "半瓶水学者",
+          "personality": "中学老师出身，特别爱引经据典，但记忆偶尔会出错。他拆穿你的时候八成是对的，可他自己翻车的时候嘴也硬。",
+          "style": "张口就是数据和历史年份，偶尔记错还特别笃定",
+          "catchphrase": "从数据上讲，你这个说法站不住。",
+          "domains": [
+            "history",
+            "science"
+          ],
+          "traits": {
+            "talkative": 75,
+            "provocative": 35,
+            "peacemaking": 20,
+            "argumentative": 70,
+            "curious": 40,
+            "knowledgeable": 80,
+            "teasing": 25
+          }
+        },
+        {
+          "id": "aqiang",
+          "displayName": "阿强",
+          "assetPrefix": "aqiang",
+          "slot": "hype",
+          "emoji": "😏",
+          "color": "#D9822B",
+          "title": "气氛组组长",
+          "personality": "哪有话题哪有他，最爱把火往你身上引。他自己说错的比谁都多，但脸皮厚得能挡子弹，翻车了哈哈哈就过去了。",
+          "style": "嗓门大，爱接梗，专门把话题拐到你这：'你觉得呢？'",
+          "catchphrase": "哎哟这个可以聊，让他说！",
+          "domains": [
+            "meme",
+            "trending"
+          ],
+          "traits": {
+            "talkative": 90,
+            "provocative": 85,
+            "peacemaking": 15,
+            "argumentative": 60,
+            "curious": 55,
+            "knowledgeable": 40,
+            "teasing": 85
+          }
+        },
+        {
+          "id": "dafei",
+          "displayName": "大飞",
+          "assetPrefix": "dafei",
+          "slot": "hype",
+          "emoji": "🤪",
+          "color": "#C25B4E",
+          "title": "段子手",
+          "personality": "什么正事都能被他扯成段子，但你认真讲的知识他其实都记住了，回头还会拿去跟别人显摆。",
+          "style": "三句话一个梗，拆穿人也用搞笑的方式，让你又气又想笑",
+          "catchphrase": "这事儿我得说两句，说完你们再笑。",
+          "domains": [
+            "meme",
+            "life"
+          ],
+          "traits": {
+            "talkative": 85,
+            "provocative": 60,
+            "peacemaking": 20,
+            "argumentative": 50,
+            "curious": 45,
+            "knowledgeable": 45,
+            "teasing": 95
+          }
+        },
+        {
+          "id": "biaoge",
+          "displayName": "表哥",
+          "assetPrefix": "biaoge",
+          "slot": "hype",
+          "emoji": "🕶️",
+          "color": "#7A6BB5",
+          "title": "吹牛大王",
+          "personality": "谁他都认识，什么他都试过。讲十件事有八件是真吹牛，但剩下两件的知识点经常是对的，防不胜防。",
+          "style": "张口就是我认识一个人、我当年试过，说到得意处会挑眉",
+          "catchphrase": "我认识一个做大生意的，他说……",
+          "domains": [
+            "economy",
+            "trending"
+          ],
+          "traits": {
+            "talkative": 80,
+            "provocative": 55,
+            "peacemaking": 10,
+            "argumentative": 50,
+            "curious": 35,
+            "knowledgeable": 55,
+            "teasing": 70
+          }
+        },
+        {
+          "id": "xiaomei",
+          "displayName": "小美",
+          "assetPrefix": "xiaomei",
+          "slot": "gentle",
+          "emoji": "🌸",
+          "color": "#C97B8E",
+          "title": "人间清醒",
+          "personality": "表面最捧场，实际看得最明白。夸你的下一句往往才是真正的补刀。被她怼了都不忍心生气，因为她笑着说得太有道理。",
+          "style": "先'哇'一声捧起来，再慢悠悠补一句扎心的",
+          "catchphrase": "哇，真的假的？……你确定？",
+          "domains": [
+            "life",
+            "literature"
+          ],
+          "traits": {
+            "talkative": 70,
+            "provocative": 30,
+            "peacemaking": 80,
+            "argumentative": 35,
+            "curious": 60,
+            "knowledgeable": 65,
+            "teasing": 60
+          }
+        },
+        {
+          "id": "miaomiao",
+          "displayName": "苗苗",
+          "assetPrefix": "miaomiao",
+          "slot": "gentle",
+          "emoji": "🐣",
+          "color": "#5FA8A0",
+          "title": "好奇宝宝",
+          "personality": "真·求知欲过剩，你说什么她都当真，然后连环追问到你自己露馅为止。她不是拆穿你，是她的问题太锋利。",
+          "style": "连环发问，'那为什么呢''那要是……呢'，问到你答不上来",
+          "catchphrase": "真的假的？！那为什么啊？",
+          "domains": [
+            "science",
+            "meme"
+          ],
+          "traits": {
+            "talkative": 75,
+            "provocative": 20,
+            "peacemaking": 40,
+            "argumentative": 30,
+            "curious": 95,
+            "knowledgeable": 50,
+            "teasing": 45
+          }
+        },
+        {
+          "id": "ahui",
+          "displayName": "阿慧",
+          "assetPrefix": "ahui",
+          "slot": "gentle",
+          "emoji": "🍵",
+          "color": "#8A9A5B",
+          "title": "和事佬",
+          "personality": "全场唯一负责打圆场的人，谁下不来台她递台阶。但你别以为她好糊弄——圆场的时候轻飘飘补的那句往往最准。",
+          "style": "语气温和，先护你再纠错，一句'不过话说回来'直接切要害",
+          "catchphrase": "都少说两句……不过话说回来，",
+          "domains": [
+            "life",
+            "history"
+          ],
+          "traits": {
+            "talkative": 65,
+            "provocative": 10,
+            "peacemaking": 95,
+            "argumentative": 20,
+            "curious": 50,
+            "knowledgeable": 60,
+            "teasing": 30
+          }
+        },
+        {
+          "id": "dazhuang",
+          "displayName": "大壮",
+          "assetPrefix": "dazhuang",
+          "slot": "quiet",
+          "emoji": "🤫",
+          "color": "#9C6B3F",
+          "title": "闷声大佬",
+          "personality": "一晚上说不了五句话，全程在听。但你翻车最狠的那次，往往就是他慢悠悠补的那一刀。字越少，事越大。",
+          "style": "行走的金句机，平均每两话题一句话，一开口全桌安静",
+          "catchphrase": "……我觉得不是这样。",
+          "domains": [
+            "life",
+            "meme"
+          ],
+          "traits": {
+            "talkative": 15,
+            "provocative": 25,
+            "peacemaking": 50,
+            "argumentative": 45,
+            "curious": 30,
+            "knowledgeable": 55,
+            "teasing": 35
+          }
+        }
+      ],
+      "scenes": [
+        {
+          "id": "bbq",
+          "displayName": "烧烤店",
+          "background": "bg_bbq",
+          "subtitle": "塑料凳矮桌，串还冒着烟，啤酒已经开了两瓶",
+          "requiredTier": "premium",
+          "table": {
+            "farY": 0.4,
+            "nearY": 0.01,
+            "farHalfWidth": 0.26,
+            "nearHalfWidth": 0.46
+          },
+          "props": [
+            {
+              "kind": "plate",
+              "x": 0.34,
+              "y": 0.42,
+              "scale": 1.0
+            },
+            {
+              "kind": "skewer",
+              "x": 0.5,
+              "y": 0.38,
+              "scale": 1.0
+            },
+            {
+              "kind": "bottle",
+              "x": 0.68,
+              "y": 0.44,
+              "scale": 1.1
+            },
+            {
+              "kind": "bottle",
+              "x": 0.78,
+              "y": 0.56,
+              "scale": 1.0
+            }
+          ],
+          "seats": [
+            {
+              "characterID": "aqiang",
+              "position": "left",
+              "depth": "foreground"
+            },
+            {
+              "characterID": "xiaomei",
+              "position": "center",
+              "depth": "foreground"
+            },
+            {
+              "characterID": "laolin",
+              "position": "right",
+              "depth": "midground"
+            },
+            {
+              "characterID": "dazhuang",
+              "position": "farRight",
+              "depth": "background"
+            }
+          ],
+          "reactionChains": {
+            "wrong": [
+              {
+                "at": 0.5,
+                "speakerID": "laolin",
+                "mood": "eyeroll",
+                "act": "freeze"
+              },
+              {
+                "at": 1.3,
+                "speakerID": "laolin",
+                "text": "哈哈哈哈，你可真敢说。",
+                "mood": "laugh",
+                "act": "slap"
+              },
+              {
+                "at": 2.05,
+                "speakerID": "aqiang",
+                "text": "我随口一说你也接，哈哈哈。",
+                "mood": "laugh",
+                "act": "pointCamera"
+              },
+              {
+                "at": 2.75,
+                "speakerID": "xiaomei",
+                "text": "你平时看着挺聪明的啊。",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 3.4,
+                "speakerID": "dazhuang",
+                "text": "我也觉得是哈。",
+                "mood": "laugh",
+                "act": "raiseHand"
+              },
+              {
+                "at": 4.0,
+                "speakerID": "laolin",
+                "act": "sitBack"
+              }
+            ],
+            "correct": [
+              {
+                "at": 0.7,
+                "speakerID": "laolin",
+                "text": "嗯？你居然知道。",
+                "mood": "normal",
+                "act": "nod"
+              },
+              {
+                "at": 1.55,
+                "speakerID": "aqiang",
+                "text": "运气好吧。",
+                "mood": "eyeroll",
+                "act": "shrug"
+              },
+              {
+                "at": 2.2,
+                "speakerID": "xiaomei",
+                "text": "厉害厉害，这个我服。",
+                "mood": "thumbsUp",
+                "act": "thumbsUp"
+              }
+            ],
+            "fooled": [
+              {
+                "at": 0.6,
+                "speakerID": "laolin",
+                "mood": "smug",
+                "act": "freeze"
+              },
+              {
+                "at": 1.25,
+                "speakerID": "laolin",
+                "text": "我装的，我就是想看看你会不会跟着说。",
+                "mood": "smug",
+                "act": "lean"
+              },
+              {
+                "at": 2.0,
+                "speakerID": "aqiang",
+                "text": "卧槽你被我带沟里了哈哈哈。",
+                "mood": "laugh",
+                "act": "pointCamera"
+              },
+              {
+                "at": 2.7,
+                "speakerID": "xiaomei",
+                "text": "他刚才还一脸自信呢，哈哈哈哈。",
+                "mood": "laugh",
+                "act": "shakeHead"
+              },
+              {
+                "at": 3.35,
+                "speakerID": "dazhuang",
+                "text": "我也信了，那我也被坑了呗。",
+                "mood": "laugh",
+                "act": "raiseHand"
+              }
+            ],
+            "sawThrough": [
+              {
+                "at": 0.55,
+                "speakerID": "laolin",
+                "mood": "smug",
+                "act": "freeze"
+              },
+              {
+                "at": 1.2,
+                "speakerID": "laolin",
+                "text": "哟，你还挺警觉。",
+                "mood": "smug",
+                "act": "nod"
+              },
+              {
+                "at": 1.85,
+                "speakerID": "aqiang",
+                "text": "没劲，骗不到你。",
+                "mood": "eyeroll",
+                "act": "shrug"
+              },
+              {
+                "at": 2.45,
+                "speakerID": "xiaomei",
+                "text": "可以啊，一眼就看出来了。",
+                "mood": "thumbsUp",
+                "act": "thumbsUp"
+              }
+            ],
+            "halfRight": [
+              {
+                "at": 0.75,
+                "speakerID": "laolin",
+                "text": "说对了一半，但一半就已经输了。",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 1.6,
+                "speakerID": "aqiang",
+                "text": "你看，他自己也没搞清楚。",
+                "mood": "laugh",
+                "act": "lean"
+              },
+              {
+                "at": 2.25,
+                "speakerID": "xiaomei",
+                "text": "至少沾点边了，别太苛刻。",
+                "mood": "laugh",
+                "act": "nod"
+              }
+            ],
+            "teased": [
+              {
+                "at": 0.75,
+                "speakerID": "aqiang",
+                "text": "哈哈，这话说的。",
+                "mood": "laugh",
+                "act": "lean"
+              },
+              {
+                "at": 1.55,
+                "speakerID": "xiaomei",
+                "text": "你自己信吗？",
+                "mood": "laugh",
+                "act": "shakeHead"
+              },
+              {
+                "at": 2.2,
+                "speakerID": "laolin",
+                "text": "这话等于没说，但也没说错。",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 2.9,
+                "speakerID": "dazhuang",
+                "text": "好像有点道理？",
+                "mood": "laugh",
+                "act": "raiseHand"
+              }
+            ]
+          }
+        },
+        {
+          "id": "cafe",
+          "displayName": "咖啡馆",
+          "background": "bg_cafe",
+          "subtitle": "高脚凳围吧台，咖啡凉了话还没聊完",
+          "requiredTier": "premium",
+          "table": {
+            "farY": 0.46,
+            "nearY": 0.05,
+            "farHalfWidth": 0.3,
+            "nearHalfWidth": 0.48
+          },
+          "props": [
+            {
+              "kind": "cup",
+              "x": 0.3,
+              "y": 0.4,
+              "scale": 0.9
+            },
+            {
+              "kind": "cup",
+              "x": 0.58,
+              "y": 0.46,
+              "scale": 0.9
+            },
+            {
+              "kind": "menu",
+              "x": 0.74,
+              "y": 0.34,
+              "scale": 1.0
+            },
+            {
+              "kind": "phone",
+              "x": 0.48,
+              "y": 0.66,
+              "scale": 1.0
+            }
+          ],
+          "seats": [
+            {
+              "characterID": "aqiang",
+              "position": "left",
+              "depth": "foreground"
+            },
+            {
+              "characterID": "xiaomei",
+              "position": "center",
+              "depth": "foreground",
+              "xOffset": 0.03
+            },
+            {
+              "characterID": "laolin",
+              "position": "right",
+              "depth": "midground"
+            },
+            {
+              "characterID": "dazhuang",
+              "position": "farRight",
+              "depth": "background",
+              "xOffset": -0.02
+            }
+          ],
+          "reactionChains": {
+            "wrong": [
+              {
+                "at": 0.5,
+                "speakerID": "laolin",
+                "mood": "eyeroll",
+                "act": "freeze"
+              },
+              {
+                "at": 1.3,
+                "speakerID": "laolin",
+                "text": "哈哈哈哈，你可真敢说。",
+                "mood": "laugh",
+                "act": "slap"
+              },
+              {
+                "at": 2.05,
+                "speakerID": "aqiang",
+                "text": "我随口一说你也接，哈哈哈。",
+                "mood": "laugh",
+                "act": "pointCamera"
+              },
+              {
+                "at": 2.75,
+                "speakerID": "xiaomei",
+                "text": "你平时看着挺聪明的啊。",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 3.4,
+                "speakerID": "dazhuang",
+                "text": "我也觉得是哈。",
+                "mood": "laugh",
+                "act": "raiseHand"
+              },
+              {
+                "at": 4.0,
+                "speakerID": "laolin",
+                "act": "sitBack"
+              }
+            ],
+            "correct": [
+              {
+                "at": 0.7,
+                "speakerID": "laolin",
+                "text": "嗯？你居然知道。",
+                "mood": "normal",
+                "act": "nod"
+              },
+              {
+                "at": 1.55,
+                "speakerID": "aqiang",
+                "text": "运气好吧。",
+                "mood": "eyeroll",
+                "act": "shrug"
+              },
+              {
+                "at": 2.2,
+                "speakerID": "xiaomei",
+                "text": "厉害厉害，这个我服。",
+                "mood": "thumbsUp",
+                "act": "thumbsUp"
+              }
+            ],
+            "fooled": [
+              {
+                "at": 0.6,
+                "speakerID": "laolin",
+                "mood": "smug",
+                "act": "freeze"
+              },
+              {
+                "at": 1.25,
+                "speakerID": "laolin",
+                "text": "我装的，我就是想看看你会不会跟着说。",
+                "mood": "smug",
+                "act": "lean"
+              },
+              {
+                "at": 2.0,
+                "speakerID": "aqiang",
+                "text": "卧槽你被我带沟里了哈哈哈。",
+                "mood": "laugh",
+                "act": "pointCamera"
+              },
+              {
+                "at": 2.7,
+                "speakerID": "xiaomei",
+                "text": "他刚才还一脸自信呢，哈哈哈哈。",
+                "mood": "laugh",
+                "act": "shakeHead"
+              },
+              {
+                "at": 3.35,
+                "speakerID": "dazhuang",
+                "text": "我也信了，那我也被坑了呗。",
+                "mood": "laugh",
+                "act": "raiseHand"
+              }
+            ],
+            "sawThrough": [
+              {
+                "at": 0.55,
+                "speakerID": "laolin",
+                "mood": "smug",
+                "act": "freeze"
+              },
+              {
+                "at": 1.2,
+                "speakerID": "laolin",
+                "text": "哟，你还挺警觉。",
+                "mood": "smug",
+                "act": "nod"
+              },
+              {
+                "at": 1.85,
+                "speakerID": "aqiang",
+                "text": "没劲，骗不到你。",
+                "mood": "eyeroll",
+                "act": "shrug"
+              },
+              {
+                "at": 2.45,
+                "speakerID": "xiaomei",
+                "text": "可以啊，一眼就看出来了。",
+                "mood": "thumbsUp",
+                "act": "thumbsUp"
+              }
+            ],
+            "halfRight": [
+              {
+                "at": 0.75,
+                "speakerID": "laolin",
+                "text": "说对了一半，但一半就已经输了。",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 1.6,
+                "speakerID": "aqiang",
+                "text": "你看，他自己也没搞清楚。",
+                "mood": "laugh",
+                "act": "lean"
+              },
+              {
+                "at": 2.25,
+                "speakerID": "xiaomei",
+                "text": "至少沾点边了，别太苛刻。",
+                "mood": "laugh",
+                "act": "nod"
+              }
+            ],
+            "teased": [
+              {
+                "at": 0.75,
+                "speakerID": "aqiang",
+                "text": "哈哈，这话说的。",
+                "mood": "laugh",
+                "act": "lean"
+              },
+              {
+                "at": 1.55,
+                "speakerID": "xiaomei",
+                "text": "你自己信吗？",
+                "mood": "laugh",
+                "act": "shakeHead"
+              },
+              {
+                "at": 2.2,
+                "speakerID": "laolin",
+                "text": "这话等于没说，但也没说错。",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 2.9,
+                "speakerID": "dazhuang",
+                "text": "好像有点道理？",
+                "mood": "laugh",
+                "act": "raiseHand"
+              }
+            ]
+          }
+        },
+        {
+          "id": "living_room",
+          "displayName": "客厅沙发",
+          "background": "bg_livingroom",
+          "subtitle": "三个人挤在沙发上，茶几摆满零食，谁也别想先走",
+          "requiredTier": "free",
+          "table": {
+            "farY": 0.42,
+            "nearY": 0.02,
+            "farHalfWidth": 0.24,
+            "nearHalfWidth": 0.47
+          },
+          "props": [
+            {
+              "kind": "plate",
+              "x": 0.42,
+              "y": 0.35,
+              "scale": 1.0
+            },
+            {
+              "kind": "cup",
+              "x": 0.66,
+              "y": 0.34,
+              "scale": 1.0
+            },
+            {
+              "kind": "snack",
+              "x": 0.26,
+              "y": 0.52,
+              "scale": 1.0
+            },
+            {
+              "kind": "phone",
+              "x": 0.6,
+              "y": 0.62,
+              "scale": 1.0
+            }
+          ],
+          "seats": [
+            {
+              "characterID": "aqiang",
+              "position": "left",
+              "depth": "foreground"
+            },
+            {
+              "characterID": "xiaomei",
+              "position": "center",
+              "depth": "foreground"
+            },
+            {
+              "characterID": "laolin",
+              "position": "right",
+              "depth": "midground"
+            },
+            {
+              "characterID": "dazhuang",
+              "position": "farRight",
+              "depth": "background"
+            }
+          ],
+          "reactionChains": {
+            "wrong": [
+              {
+                "at": 0.5,
+                "speakerID": "laolin",
+                "mood": "eyeroll",
+                "act": "freeze"
+              },
+              {
+                "at": 1.3,
+                "speakerID": "laolin",
+                "text": "哈哈哈哈，你可真敢说。",
+                "mood": "laugh",
+                "act": "slap"
+              },
+              {
+                "at": 2.05,
+                "speakerID": "aqiang",
+                "text": "我随口一说你也接，哈哈哈。",
+                "mood": "laugh",
+                "act": "pointCamera"
+              },
+              {
+                "at": 2.75,
+                "speakerID": "xiaomei",
+                "text": "你平时看着挺聪明的啊。",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 3.4,
+                "speakerID": "dazhuang",
+                "text": "我也觉得是哈。",
+                "mood": "laugh",
+                "act": "raiseHand"
+              },
+              {
+                "at": 4.0,
+                "speakerID": "laolin",
+                "act": "sitBack"
+              }
+            ],
+            "correct": [
+              {
+                "at": 0.7,
+                "speakerID": "laolin",
+                "text": "嗯？你居然知道。",
+                "mood": "normal",
+                "act": "nod"
+              },
+              {
+                "at": 1.55,
+                "speakerID": "aqiang",
+                "text": "运气好吧。",
+                "mood": "eyeroll",
+                "act": "shrug"
+              },
+              {
+                "at": 2.2,
+                "speakerID": "xiaomei",
+                "text": "厉害厉害，这个我服。",
+                "mood": "thumbsUp",
+                "act": "thumbsUp"
+              }
+            ],
+            "fooled": [
+              {
+                "at": 0.6,
+                "speakerID": "laolin",
+                "mood": "smug",
+                "act": "freeze"
+              },
+              {
+                "at": 1.25,
+                "speakerID": "laolin",
+                "text": "我装的，我就是想看看你会不会跟着说。",
+                "mood": "smug",
+                "act": "lean"
+              },
+              {
+                "at": 2.0,
+                "speakerID": "aqiang",
+                "text": "卧槽你被我带沟里了哈哈哈。",
+                "mood": "laugh",
+                "act": "pointCamera"
+              },
+              {
+                "at": 2.7,
+                "speakerID": "xiaomei",
+                "text": "他刚才还一脸自信呢，哈哈哈哈。",
+                "mood": "laugh",
+                "act": "shakeHead"
+              },
+              {
+                "at": 3.35,
+                "speakerID": "dazhuang",
+                "text": "我也信了，那我也被坑了呗。",
+                "mood": "laugh",
+                "act": "raiseHand"
+              }
+            ],
+            "sawThrough": [
+              {
+                "at": 0.55,
+                "speakerID": "laolin",
+                "mood": "smug",
+                "act": "freeze"
+              },
+              {
+                "at": 1.2,
+                "speakerID": "laolin",
+                "text": "哟，你还挺警觉。",
+                "mood": "smug",
+                "act": "nod"
+              },
+              {
+                "at": 1.85,
+                "speakerID": "aqiang",
+                "text": "没劲，骗不到你。",
+                "mood": "eyeroll",
+                "act": "shrug"
+              },
+              {
+                "at": 2.45,
+                "speakerID": "xiaomei",
+                "text": "可以啊，一眼就看出来了。",
+                "mood": "thumbsUp",
+                "act": "thumbsUp"
+              }
+            ],
+            "halfRight": [
+              {
+                "at": 0.75,
+                "speakerID": "laolin",
+                "text": "说对了一半，但一半就已经输了。",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 1.6,
+                "speakerID": "aqiang",
+                "text": "你看，他自己也没搞清楚。",
+                "mood": "laugh",
+                "act": "lean"
+              },
+              {
+                "at": 2.25,
+                "speakerID": "xiaomei",
+                "text": "至少沾点边了，别太苛刻。",
+                "mood": "laugh",
+                "act": "nod"
+              }
+            ],
+            "teased": [
+              {
+                "at": 0.75,
+                "speakerID": "aqiang",
+                "text": "哈哈，这话说的。",
+                "mood": "laugh",
+                "act": "lean"
+              },
+              {
+                "at": 1.55,
+                "speakerID": "xiaomei",
+                "text": "你自己信吗？",
+                "mood": "laugh",
+                "act": "shakeHead"
+              },
+              {
+                "at": 2.2,
+                "speakerID": "laolin",
+                "text": "这话等于没说，但也没说错。",
+                "mood": "eyeroll",
+                "act": "shakeHead"
+              },
+              {
+                "at": 2.9,
+                "speakerID": "dazhuang",
+                "text": "好像有点道理？",
+                "mood": "laugh",
+                "act": "raiseHand"
+              }
+            ]
+          }
+        }
+      ],
+      "assets": {}
     }
   }
 }
