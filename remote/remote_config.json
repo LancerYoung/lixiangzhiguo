@@ -1,12 +1,12 @@
 {
-  "version": 10101,
+  "version": 10102,
   "defaultRegion": "zh-CN",
   "regions": {
     "en-US": {
       "scripts": [
         {
           "id": "bohemianrhapsody",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/en-US__bohemianrhapsody.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/en-US__bohemianrhapsody.enc",
           "title": "Bohemian Rhapsody Deep-Dive Night",
           "description": "One whole session on Queen's Bohemian Rhapsody.",
           "discipline": "Music",
@@ -28,7 +28,7 @@
         },
         {
           "id": "inception",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/en-US__inception.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/en-US__inception.enc",
           "title": "Inception Deep-Dive Night",
           "description": "One whole session on the film Inception, unpacked in segments.",
           "discipline": "Film",
@@ -50,7 +50,7 @@
         },
         {
           "id": "skull",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/en-US__skull.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/en-US__skull.enc",
           "title": "The 'Skull' Meme Deep-Dive Night",
           "description": "One whole session on the 💀 'skull' meme and dead-from-laughing culture.",
           "discipline": "Internet Meme",
@@ -72,7 +72,7 @@
         },
         {
           "id": "blackhole",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/en-US__blackhole.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/en-US__blackhole.enc",
           "title": "Black Hole Deep-Dive Night",
           "description": "One whole session on black holes, from event horizon to the first image.",
           "discipline": "Science",
@@ -94,7 +94,7 @@
         },
         {
           "id": "pizza",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/en-US__pizza.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/en-US__pizza.enc",
           "title": "Pizza Deep-Dive Night",
           "description": "One whole session on pizza, from Naples to your door.",
           "discipline": "Food",
@@ -116,7 +116,7 @@
         },
         {
           "id": "romaempire",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/en-US__romaempire.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/en-US__romaempire.enc",
           "title": "Roman Empire Deep-Dive Night",
           "description": "One whole session on the Roman Empire, rise to fall.",
           "discipline": "History",
@@ -1134,7 +1134,7 @@
       "scripts": [
         {
           "id": "dongfengpo",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__dongfengpo.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__dongfengpo.enc",
           "title": "《东风破》中国风深聊局",
           "description": "整局只聊周杰伦的《东风破》一首歌，分多个深挖段落。",
           "discipline": "音乐",
@@ -1157,7 +1157,7 @@
         },
         {
           "id": "bawangbieji",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__bawangbieji.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__bawangbieji.enc",
           "title": "《霸王别姬》影视深聊局",
           "description": "整局只聊《霸王别姬》一部电影，分多个深挖段落。",
           "discipline": "影视",
@@ -1179,7 +1179,7 @@
         },
         {
           "id": "tangping",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__tangping.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__tangping.enc",
           "title": "“躺平”梗深聊局",
           "description": "整局只聊“躺平”这一个网络梗，从起源到立场。",
           "discipline": "网络热梗",
@@ -1201,7 +1201,7 @@
         },
         {
           "id": "taiyang",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__taiyang.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__taiyang.enc",
           "title": "太阳深聊局",
           "description": "整局只聊太阳这一颗恒星，从核聚变到红巨星。",
           "discipline": "科学",
@@ -1223,7 +1223,7 @@
         },
         {
           "id": "yangsheng",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__yangsheng.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__yangsheng.enc",
           "title": "客厅养生误区局",
           "description": "八杯水、骨头汤、隔夜菜……聊聊那些流传很广的健康误区。",
           "discipline": "健康养生",
@@ -1246,7 +1246,7 @@
         },
         {
           "id": "barbecue",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__barbecue.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__barbecue.enc",
           "title": "烧烤店美食局",
           "description": "围绕烧烤的闲聊：啤酒、烤肉、美拉德反应与烧烤里的历史冷知识。",
           "discipline": "美食",
@@ -1270,7 +1270,7 @@
         },
         {
           "id": "coffee",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__coffee.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__coffee.enc",
           "title": "咖啡馆慢聊局",
           "description": "从一杯拿铁聊到咖啡豆、半衰期，以及那些关于咖啡的传闻与真相。",
           "discipline": "美食",
@@ -1294,7 +1294,7 @@
         },
         {
           "id": "malatang",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__malatang.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__malatang.enc",
           "title": "麻辣烫深聊局",
           "description": "整局只聊麻辣烫这一碗，从码头到网红店。",
           "discipline": "美食",
@@ -1316,7 +1316,7 @@
         },
         {
           "id": "qinshihuang",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__qinshihuang.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__qinshihuang.enc",
           "title": "秦始皇深聊局",
           "description": "整局只聊秦始皇一个人，从统一六国到兵马俑。",
           "discipline": "历史",
@@ -1338,7 +1338,7 @@
         },
         {
           "id": "topics_daily_life",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__topics_daily_life.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__topics_daily_life.enc",
           "title": "生活话题局",
           "description": "围绕生活的闲聊：2 个话题连续进行。",
           "discipline": "生活",
@@ -1363,7 +1363,7 @@
         },
         {
           "id": "topics_history",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__topics_history.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__topics_history.enc",
           "title": "历史话题局",
           "description": "围绕历史的闲聊：1 个话题连续进行。",
           "discipline": "历史",
@@ -1386,7 +1386,7 @@
         },
         {
           "id": "topics_literature",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__topics_literature.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__topics_literature.enc",
           "title": "文学话题局",
           "description": "围绕文学的闲聊：1 个话题连续进行。",
           "discipline": "文学",
@@ -1409,7 +1409,7 @@
         },
         {
           "id": "topics_meme",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__topics_meme.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__topics_meme.enc",
           "title": "梗话题局",
           "description": "围绕梗的闲聊：1 个话题连续进行。",
           "discipline": "梗",
@@ -1432,7 +1432,7 @@
         },
         {
           "id": "topics_science",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__topics_science.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__topics_science.enc",
           "title": "科学话题局",
           "description": "围绕科学的闲聊：5 个话题连续进行。",
           "discipline": "科学",
@@ -14698,7 +14698,7 @@
       "scripts": [
         {
           "id": "dongfengpo",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__dongfengpo.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__dongfengpo.enc",
           "title": "《东风破》中国风深聊局",
           "description": "整局只聊周杰伦的《东风破》一首歌，分多个深挖段落。",
           "discipline": "音乐",
@@ -14721,7 +14721,7 @@
         },
         {
           "id": "bawangbieji",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__bawangbieji.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__bawangbieji.enc",
           "title": "《霸王别姬》影视深聊局",
           "description": "整局只聊《霸王别姬》一部电影，分多个深挖段落。",
           "discipline": "影视",
@@ -14743,7 +14743,7 @@
         },
         {
           "id": "tangping",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__tangping.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__tangping.enc",
           "title": "“躺平”梗深聊局",
           "description": "整局只聊“躺平”这一个网络梗，从起源到立场。",
           "discipline": "网络热梗",
@@ -14765,7 +14765,7 @@
         },
         {
           "id": "taiyang",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__taiyang.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__taiyang.enc",
           "title": "太阳深聊局",
           "description": "整局只聊太阳这一颗恒星，从核聚变到红巨星。",
           "discipline": "科学",
@@ -14787,7 +14787,7 @@
         },
         {
           "id": "yangsheng",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__yangsheng.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__yangsheng.enc",
           "title": "客厅养生误区局",
           "description": "八杯水、骨头汤、隔夜菜……聊聊那些流传很广的健康误区。",
           "discipline": "健康养生",
@@ -14810,7 +14810,7 @@
         },
         {
           "id": "barbecue",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__barbecue.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__barbecue.enc",
           "title": "烧烤店美食局",
           "description": "围绕烧烤的闲聊：啤酒、烤肉、美拉德反应与烧烤里的历史冷知识。",
           "discipline": "美食",
@@ -14834,7 +14834,7 @@
         },
         {
           "id": "coffee",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__coffee.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__coffee.enc",
           "title": "咖啡馆慢聊局",
           "description": "从一杯拿铁聊到咖啡豆、半衰期，以及那些关于咖啡的传闻与真相。",
           "discipline": "美食",
@@ -14858,7 +14858,7 @@
         },
         {
           "id": "malatang",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__malatang.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__malatang.enc",
           "title": "麻辣烫深聊局",
           "description": "整局只聊麻辣烫这一碗，从码头到网红店。",
           "discipline": "美食",
@@ -14880,7 +14880,7 @@
         },
         {
           "id": "qinshihuang",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__qinshihuang.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__qinshihuang.enc",
           "title": "秦始皇深聊局",
           "description": "整局只聊秦始皇一个人，从统一六国到兵马俑。",
           "discipline": "历史",
@@ -14902,7 +14902,7 @@
         },
         {
           "id": "topics_daily_life",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__topics_daily_life.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__topics_daily_life.enc",
           "title": "生活话题局",
           "description": "围绕生活的闲聊：2 个话题连续进行。",
           "discipline": "生活",
@@ -14927,7 +14927,7 @@
         },
         {
           "id": "topics_history",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__topics_history.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__topics_history.enc",
           "title": "历史话题局",
           "description": "围绕历史的闲聊：1 个话题连续进行。",
           "discipline": "历史",
@@ -14950,7 +14950,7 @@
         },
         {
           "id": "topics_literature",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__topics_literature.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__topics_literature.enc",
           "title": "文学话题局",
           "description": "围绕文学的闲聊：1 个话题连续进行。",
           "discipline": "文学",
@@ -14973,7 +14973,7 @@
         },
         {
           "id": "topics_meme",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__topics_meme.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__topics_meme.enc",
           "title": "梗话题局",
           "description": "围绕梗的闲聊：1 个话题连续进行。",
           "discipline": "梗",
@@ -14996,7 +14996,7 @@
         },
         {
           "id": "topics_science",
-          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.1/remote/zh-CN__topics_science.enc",
+          "url": "https://cdn.jsdelivr.net/gh/LancerYoung/lixiangzhiguo@v1.1.2/remote/zh-CN__topics_science.enc",
           "title": "科学话题局",
           "description": "围绕科学的闲聊：5 个话题连续进行。",
           "discipline": "科学",
